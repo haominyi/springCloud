@@ -6,8 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sceurekaserver" />
+        <module name="scfeign" />
+        <module name="scribbon" />
+        <module name="service1" />
         <module name="springCloud" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sceurekaserver" options="" />
+      <module name="scfeign" options="" />
+      <module name="scribbon" options="" />
+      <module name="service1" options="" />
+    </option>
   </component>
 </project>
