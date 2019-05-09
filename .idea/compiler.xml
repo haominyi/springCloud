@@ -16,10 +16,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="sceurekaserver" options="" />
-      <module name="scfeign" options="" />
-      <module name="scribbon" options="" />
-      <module name="service1" options="" />
+      <module name="sceurekaserver" options="-parameters" />
+      <module name="scfeign" options="-parameters" />
+      <module name="scribbon" options="-parameters" />
+      <module name="service1" options="-parameters" />
     </option>
   </component>
 </project>

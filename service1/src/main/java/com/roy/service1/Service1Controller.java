@@ -6,9 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
+
 @RestController
 @RequestMapping("api/service1")
-public class Service1Controller {
+public class Service1Controller{
 
     @Resource
     private DiscoveryClient client;
