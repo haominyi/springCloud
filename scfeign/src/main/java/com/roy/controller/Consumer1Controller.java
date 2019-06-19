@@ -1,19 +1,17 @@
-package com.roy.scribbonweb;
+package com.roy.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 
 @RestController
 public class Consumer1Controller {
     @Resource
-    RestTemplate restTemplate;
+    public Service1Controller service1Controller;
 
     @RequestMapping("add")
-    public String add(){
-        return restTemplate.getForEntity("http://service1/api/service1/add?a=10&b=20",String.class).getBody();
+    public Integer add(){
+        return service1Controller.add(20,80);
     }
-
 }

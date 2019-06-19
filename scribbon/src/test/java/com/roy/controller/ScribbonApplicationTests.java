@@ -1,4 +1,4 @@
-package com.roy.scribbonweb;
+package com.roy.controller;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

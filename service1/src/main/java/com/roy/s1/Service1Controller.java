@@ -1,4 +1,4 @@
-package com.roy.service1;
+package com.roy.s1;
 
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,7 +8,7 @@ import javax.annotation.Resource;
 
 
 @RestController
-@RequestMapping("api/service1")
+@RequestMapping("api/s1")
 public class Service1Controller{
 
     @Resource
