@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-@RestController
+@RestController("scfeign_consumer1")
 public class Consumer1Controller {
     @Resource
     public Service1Controller service1Controller;

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.annotation.Resource;
 
 
-@RestController
+@RestController("service1_controller")
 @RequestMapping("api/s1")
 public class Service1Controller{
 

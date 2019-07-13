@@ -6,7 +6,7 @@ import org.springframework.web.client.RestTemplate;
 
 import javax.annotation.Resource;
 
-@RestController
+@RestController("scfibbon_consumer1")
 public class Consumer1Controller {
     @Resource
     RestTemplate restTemplate;
